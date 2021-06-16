@@ -390,3 +390,5 @@ def predict(args_dict):
         filename = os.path.join('dataset/images', args_dict.get('data'))
         license_plate_string = process_file(filename)
     return {'prediction': license_plate_string}
+
+# a comment at the bottom
