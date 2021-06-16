@@ -3,3 +3,4 @@ vendor
 _site
 .bundle
 ac4d*
+.ipynb_checkpoints/*
