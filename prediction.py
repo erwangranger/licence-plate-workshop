@@ -345,7 +345,7 @@ def  lpr_process(input_image_path):
             "input_image_name": input_image_path
         }
         #print(json.dumps(result))
-        return vehicle, LpImg, 'Unable to read license plate. Sorry aboot that!'
+        return vehicle, LpImg, 'Not able to read license plate.'
     
 # Load models
 # Load the plate recognition model
@@ -390,5 +390,3 @@ def predict(args_dict):
         filename = os.path.join('dataset/images', args_dict.get('data'))
         license_plate_string = process_file(filename)
     return {'prediction': license_plate_string}
-
-# a comment at the bottom
