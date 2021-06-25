@@ -345,7 +345,7 @@ def  lpr_process(input_image_path):
             "input_image_name": input_image_path
         }
         #print(json.dumps(result))
-        return vehicle, LpImg, 'Not able to read license plate'
+        return vehicle, LpImg, 'Unable to read license plate. Sorry aboot that!'
     
 # Load models
 # Load the plate recognition model
